@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         
         <title>Controle de Entregas</title>
 
@@ -22,10 +25,30 @@
         <div class="cardsStatus">
 
             <div class="cardStatus green">
-                
+                <div class="cardStatusText">
+                    <h3>ENVIADOS</h3>
+                    <spam>20</spam>
+                    
+                </div>
+                <img src="./svg/enviados.svg"/>
+
             </div>
-            <div class="cardStatus lightGreen"></div>
-            <div class="cardStatus red"></div>
+            <div class="cardStatus lightGreen">
+                <div class="cardStatusText">
+                    <h3>EM ANDAMENTO</h3>
+                    <spam>30</spam>
+                    
+                </div>
+                <img src="./svg/emAndamento.svg"/>
+            </div>
+            <div class="cardStatus red">
+                <div class="cardStatusText">
+                    <h3>CANCELADOS</h3>
+                    <spam>5</spam>
+                    
+                </div>
+                <img src="./svg/cancelado.svg"/>
+            </div>
         </div>
 
         <div class="tableContent"></div>
