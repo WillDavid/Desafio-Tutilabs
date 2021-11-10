@@ -1,40 +1,28 @@
 .tableContent {
     padding: 0px 25px 0px 25px;
-    margin-top: 30px;
-    
+    margin-top: 30px; 
 }
 
 .tableContent table {
     width: 100%;
     border-radius: 10px 0px 0px 10px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
-  
-    
-
-   
-    
 }
 
 table th {
     font-size: 17px;
 }
 
-
 table td {
     border-top: 0.4px solid rgba(0, 0, 0, 0.199);
 }
 
-
 .tableContent td {
     text-align: center;
-    height: 50px;
-      
+    height: 50px;     
 }
 
-
-
 .tdStatus {
-    
     color: #fff;
     width: 200px;
     height: 30px;
@@ -49,7 +37,6 @@ table td {
     background-color: #1FBF84;
 }
 
-
 .tdLightGreen {
     background-color: #65D930;
 }
@@ -57,7 +44,6 @@ table td {
 .tdRed {
     background-color: #D95F5F;
 }
-
 
 .eyeButton, .trashButton {
     margin: 5px;
@@ -85,8 +71,6 @@ table td {
 .eyeButton:hover {
     transform: scale(1.02);
 }
-
-
 
 .opcoes {
     display: flex;
