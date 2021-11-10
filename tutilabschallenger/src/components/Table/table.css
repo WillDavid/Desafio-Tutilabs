@@ -1,17 +1,37 @@
 .tableContent {
     padding: 0px 25px 0px 25px;
     margin-top: 30px;
+    
 }
 
 .tableContent table {
     width: 100%;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
+  
+    
+
+   
     
 }
+
+table th {
+    font-size: 17px;
+}
+
+
+table td {
+    border-top: 0.4px solid rgba(0, 0, 0, 0.199);
+}
+
 
 .tableContent td {
     text-align: center;
     height: 50px;
+      
 }
+
+
 
 .tdStatus {
     
@@ -50,10 +70,20 @@
 
 .eyeButton {
     background-color: #875AD6;
+    transition: 0.3s;
 }
 
 .trashButton {
     background-color: #D95F5F;
+    transition: 0.3s;
+}
+
+.trashButton:hover {
+    transform: scale(1.01);
+}
+
+.eyeButton:hover {
+    transform: scale(1.02);
 }
 
 

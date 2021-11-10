@@ -63,7 +63,7 @@ export default function Table(props){
 
     return(
         <div className="tableContent"> 
-            <table border="1px" cellpadding="5px" cellspacing="0">
+            <table  cellpadding="0" cellspacing="0">
                 <thead>
                     <th>PRODUTO</th>
                     <th>CÓDIGO</th>

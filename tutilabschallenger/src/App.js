@@ -17,12 +17,12 @@ import cardIconEnviados from './assets/cardsAssets/enviados.svg'
 export default function App() {
 
 	const dataTable = [
-		{id: 1, produto: 'produto a', codigo: '52189-90', status: 'ENVIADO'},
-		{id: 2, produto: 'produto b', codigo: '52349-90', status: 'ENVIADO'},
-		{id: 3, produto: 'produto c', codigo: '24234-90', status: 'CANCELADO'},
-		{id: 4, produto: 'produto d', codigo: '56563-90', status: 'EM ANDAMENTO'},
-		{id: 5, produto: 'produto e', codigo: '90689-90', status: 'ENVIADO'},
-		{id: 6, produto: 'produto f', codigo: '65687-90', status: 'CANCELADO'}
+		{id: 1, produto: 'produto A', codigo: '52189-90', status: 'ENVIADO'},
+		{id: 2, produto: 'produto B', codigo: '52349-90', status: 'ENVIADO'},
+		{id: 3, produto: 'produto C', codigo: '24234-90', status: 'CANCELADO'},
+		{id: 4, produto: 'produto D', codigo: '56563-90', status: 'EM ANDAMENTO'},
+		{id: 5, produto: 'produto E', codigo: '90689-90', status: 'ENVIADO'},
+		{id: 6, produto: 'produto F', codigo: '65687-90', status: 'EM ANDAMENTO'}
 	]
 
 	const [qtdEnviados, setQtdEnviados] = useState(0);
@@ -49,7 +49,7 @@ export default function App() {
 
 	function qtdeCanceladosFunction (){
 		const list = dataTable.map( (e) => {
-			if(e.status === "ENVIADO")
+			if(e.status === "CANCELADO")
 				qtdeCancelado = qtdeCancelado + 1
 		})
 		return qtdeCancelado
