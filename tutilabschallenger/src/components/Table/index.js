@@ -11,13 +11,13 @@ export default function Table(props){
     function renderStatus(item){
         if(item === "EM ANDAMENTO") {
             return(
-                <div className="tdStatus tdGreen">
+                <div className="tdStatus tdLightGreen">
                     <spam>{item}</spam>
                 </div>
             )
         }else if(item === "ENVIADO"){
             return(
-                <div className="tdStatus tdLightGreen">
+                <div className="tdStatus tdGreen">
                     <spam>{item}</spam>
                 </div>
             )
