@@ -14,36 +14,40 @@
 
     <body>
 
+        <div class="sideBar"></div>
+
+        <div class="content">
         <div class="headerContent">
             <h2>Controle de Entregas</h2>
             <div class="profile">
                 <spam>Buno Caldas</spam>
+                <img src="./svg/user.svg">
                 
             </div>
         </div>
 
         <div class="cardsStatus">
 
-            <div class="cardStatus green">
+            <div class="cardStatus greenCard">
                 <div class="cardStatusText">
-                    <h3>ENVIADOS</h3>
+                    <h3 class="textStatus green">ENVIADOS</h3>
                     <spam>20</spam>
                     
                 </div>
                 <img src="./svg/enviados.svg"/>
 
             </div>
-            <div class="cardStatus lightGreen">
+            <div class="cardStatus lightGreenCard">
                 <div class="cardStatusText">
-                    <h3>EM ANDAMENTO</h3>
+                    <h3 class="textStatus lightGreen">EM ANDAMENTO</h3>
                     <spam>30</spam>
                     
                 </div>
                 <img src="./svg/emAndamento.svg"/>
             </div>
-            <div class="cardStatus red">
+            <div class="cardStatus redCard">
                 <div class="cardStatusText">
-                    <h3>CANCELADOS</h3>
+                    <h3 class="textStatus red">CANCELADOS</h3>
                     <spam>5</spam>
                     
                 </div>
@@ -51,7 +55,35 @@
             </div>
         </div>
 
-        <div class="tableContent"></div>
+        <div class="tableContent">
+            <table border="1px" cellpadding="5px" cellspacing="0">
+                <tr> 
+                    <th>PRODUTO</th>
+                    <th>CÓDIGO DO PRODUTO</th>
+                    <th>STATUS DO PRODUTO</th>
+                    <th>OPÇÕES</th>
+                </tr>
+                <tr> 
+                    <th>Produto a</th>
+                    <th>52189-90</th>
+                    <th>
+                        [<div>
+                            <spam>ENVIADO</spam>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="opcoes">
+                        <button class="eyeButton"><img src="./svg/table/eye.svg" alt=""></button>
+                        <button class="trashButton"><img src="./svg/table/trash.svg" alt=""></button> </div>
+                        
+                    </th>
+                </tr>
+                
+                
+            </table>
+        </div>
+
+    </div>
     </body>
 
 </html>
