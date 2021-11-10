@@ -4,19 +4,61 @@
 
 .tableContent table {
     width: 100%;
+    
 }
 
 .tableContent td {
     text-align: center;
+    height: 50px;
 }
 
 .tdStatus {
-    background-color: #65D930;
+    
+    color: #fff;
     width: 200px;
     height: 30px;
     border-radius: 5px;
     margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.tdGreen{
+    background-color: #1FBF84;
+}
+
+
+.tdLightGreen {
+    background-color: #65D930;
+}
+
+.tdRed {
+    background-color: #D95F5F;
+}
+
+
+.eyeButton, .trashButton {
+    margin: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.eyeButton {
+    background-color: #875AD6;
+}
+
+.trashButton {
+    background-color: #D95F5F;
+}
+
+
+
+.opcoes {
+    display: flex;
+    justify-content:center;
     align-items: center;
 }

@@ -1,11 +1,37 @@
 import './table.css'
+
+// img
+
+import eyeIcon from '../../assets/tableAssets/eye.svg'
+import trashIcon from '../../assets/tableAssets/trash.svg'
+
+
 export default function Table(props){
 
-    const redStyle = {
-        backgroundColor: 'red'
+    function renderStatus(item){
+        if(item === "EM ANDAMENTO") {
+            return(
+                <div className="tdStatus tdGreen">
+                    <spam>{item}</spam>
+                </div>
+            )
+        }else if(item === "ENVIADO"){
+            return(
+                <div className="tdStatus tdLightGreen">
+                    <spam>{item}</spam>
+                </div>
+            )
+        }else {
+            return(
+                <div className="tdStatus tdRed">
+                    <spam>{item}</spam>
+                </div>
+            )
+        }
     }
 
-    console.log(props.data[1].status)
+    
+
 
     
     
@@ -18,7 +44,17 @@ export default function Table(props){
                 <tr key={item.id}>
                     <td>{item.produto}</td>
                     <td>{item.codigo}</td>
-                    <td><div className="tdStatus" style={redStyle}><spam>{item.status}</spam></div></td>
+                    <td>
+                        {renderStatus(item.status)}
+                        
+                        
+                    </td>
+                    <td>
+                        <div className="opcoes">
+                            <button className="eyeButton"><img src={eyeIcon} /></button>
+                            <button className="trashButton"><img src={trashIcon} /></button> 
+                        </div>
+                    </td>
                 </tr>
                 
             )
@@ -32,6 +68,7 @@ export default function Table(props){
                     <th>PRODUTO</th>
                     <th>CÓDIGO</th>
                     <th>STATUS</th>
+                    <th>OPÇÕES</th>
                 </thead>
 
                 <tbody>
