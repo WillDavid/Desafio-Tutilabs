@@ -1,36 +1,47 @@
+import './table.css'
 export default function Table(props){
 
-    const keys = Object.keys(props.data[0])
+    const redStyle = {
+        backgroundColor: 'red'
+    }
 
-    const Row = ({ record}) => {
-        const keys = Object.keys(record)
-        return (
-            <tr key={record.id}>
-                {
-                    keys.map( key => <td key={key}>{record[key]}</td>)
-                }
-            </tr>
-        )
+    console.log(props.data[1].status)
+
+    
+    
+
+    
+
+    function renderRow(){
+        return props.data.map( item => {
+            return(
+                <tr key={item.id}>
+                    <td>{item.produto}</td>
+                    <td>{item.codigo}</td>
+                    <td><div className="tdStatus" style={redStyle}><spam>{item.status}</spam></div></td>
+                </tr>
+                
+            )
+        })
     }
 
     return(
-        <div>
-            <table>
+        <div className="tableContent"> 
+            <table border="1px" cellpadding="5px" cellspacing="0">
                 <thead>
-                    <tr>{
-                        keys.map(key => <th key={key}>{key}</th>)
-                        }</tr>
-
+                    <th>PRODUTO</th>
+                    <th>CÓDIGO</th>
+                    <th>STATUS</th>
                 </thead>
 
                 <tbody>
-                    {props.data.map(record => <Row record={record} />)}
+                    {renderRow()}
                 </tbody>
 
 
             </table>
             
-            <h2>{JSON.stringify(props.data)}</h2> 
+         
         </div>
     )
 }

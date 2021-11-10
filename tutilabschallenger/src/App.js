@@ -21,6 +21,7 @@ export default function App() {
 	]
 
 
+
   return (
 	  <div className="app">
 		  <SideBar />
@@ -33,9 +34,9 @@ export default function App() {
 					
 			  </div>
 
-			  <div class="tableContent">
-				  <Table data={dataTable}/>
-			  </div>
+			  
+				<Table data={dataTable}/>
+			  
 		  </div>
 		  
 	  </div>

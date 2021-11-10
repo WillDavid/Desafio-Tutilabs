@@ -1,0 +1,22 @@
+.tableContent {
+    padding: 0px 25px 0px 25px;
+}
+
+.tableContent table {
+    width: 100%;
+}
+
+.tableContent td {
+    text-align: center;
+}
+
+.tdStatus {
+    background-color: #65D930;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
