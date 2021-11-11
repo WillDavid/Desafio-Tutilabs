@@ -1,6 +1,6 @@
 import './App.css'; // ESTILO DO APP.JS
 
-import React, { useState } from "react";
+import React from "react";
 
 
 // COMPONENTES

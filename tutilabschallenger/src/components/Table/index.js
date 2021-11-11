@@ -75,8 +75,8 @@ export default function Table(props){
 
                 <thead>
                     <th>PRODUTO</th>
-                    <th>CÓDIGO</th>
-                    <th>STATUS</th>
+                    <th>CÓDIGO DO PRODUTO</th>
+                    <th>STATUS DO PRODUTO</th>
                     <th>OPÇÕES</th>
                 </thead>
 
