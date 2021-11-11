@@ -13,15 +13,18 @@
 <a target="_blank" href="https://desafio-tutilabs.netlify.app/"><strong>Clique aqui para visualizar a aplicação</strong></a>
 
 
-<h2 align="left">:teacher: Quais as tecnologias que foram utilizadas no desenvolvimento?</h2>
+<h2 align="left">:hammer_and_wrench: Quais as tecnologias que foram utilizadas no desenvolvimento?</h2>
 <img src="https://i.ibb.co/fHHjzfp/Design-sem-nome.png">
 
 
-<h3 align="left"> Minha experiência pessoal nesta seleção: :star: :star: :star: :star: :star: </h3>
+<h3 align="left">:computer: Minha experiência pessoal nesta seleção: :star: :star: :star: :star: :star: </h3>
 
 <p>O desafio (fica até redundante) foi bem desafiador. Agradeço imensamente a Tutiplast e TutiLabs pela oportunidade de colocar os meus conhecimento à prova, devo confessar que sempre bate um nervosismo em processo seletivo, mas sei que dei o meu melhor!</p>
 
 <p><strong>OBS: </strong> Antes de ser construído em React.Js, a aplicação foi desenvolvida apenas utilizando HTML5 e CSS3.</p>
+
+<h2 align="left">:mage: Resultado final</h2>
+<img src="https://i.ibb.co/5shy9zr/github-com-Will-David-1.png">
 
 
 

@@ -1,6 +1,7 @@
 import './App.css'; // ESTILO DO APP.JS
 
-import React from "react";
+import React, { useState } from "react";
+import {nanoid} from 'nanoid'
 
 // COMPONENTES
 
@@ -36,6 +37,7 @@ export default function App() {
 	// As três funções abaixo são responsáveis por analisar o dataTable e contabilizar
 	// a quantidade de produtos com status "ENVIADO", "EM ANDAMENTO" e "CANCELADO".
 
+
 	let [qtdeEnviados, qtdeEmAndamento, qtdeCancelado] = [0,0,0]
 
 	function qtdeEnviadosFunction() {
@@ -61,6 +63,7 @@ export default function App() {
 		})
 		return qtdeCancelado
 	}
+
 	
 	// ESTE RETURN RENDERIZA TODOS OS ELEMENTOS DA PÁGINA.
 	// NO COMPONENT CARDSTATUS, AS FUNÇÕES DE QDTEs SÃO REPASSADAS COMO PROPS,
