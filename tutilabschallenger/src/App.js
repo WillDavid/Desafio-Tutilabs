@@ -1,7 +1,7 @@
 import './App.css'; // ESTILO DO APP.JS
 
 import React, { useState } from "react";
-import {nanoid} from 'nanoid'
+
 
 // COMPONENTES
 
@@ -30,7 +30,6 @@ export default function App() {
 		{id: 3, produto: 'produto C', codigo: '24234-90', status: 'CANCELADO'},
 		{id: 4, produto: 'produto D', codigo: '56563-90', status: 'EM ANDAMENTO'},
 		{id: 5, produto: 'produto E', codigo: '90689-90', status: 'ENVIADO'},
-		{id: 6, produto: 'produto F', codigo: '65687-90', status: 'EM ANDAMENTO'},
 	]
 
 

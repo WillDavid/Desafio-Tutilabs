@@ -29,6 +29,8 @@
 
 .cardsStatus spam {
     font-size: 30px;
+    color: #292828;
+    font-weight: 700;
 }
 
 .cardImg {
