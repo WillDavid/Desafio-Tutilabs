@@ -10,7 +10,7 @@
 <p><strong>OBS: </strong>Desafio válido por 3 dias contando a partir do recebimento deste e-mail, serão avaliados a organização de código e lógica. Enviar link do repositório git público.</p>
 
 <h2 align="left">:pushpin: Deploy da Aplicação </h2>
-<a href="https://desafio-tutilabs.netlify.app/"><strong>Clique aqui para visualizar a aplicação</strong></a>
+<a target="_blank" href="https://desafio-tutilabs.netlify.app/"><strong>Clique aqui para visualizar a aplicação</strong></a>
 
 
 <h2 align="left">:teacher: Quais as tecnologias que foram utilizadas no desenvolvimento?</h2>
@@ -23,7 +23,7 @@
 
 <p><strong>OBS: </strong> Antes de ser construído em React.Js, a aplicação foi desenvolvida apenas utilizando HTML5 e CSS3.</p>
 
-<a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"><p>Clique aqui para visualizar o curso de HTML5, CSS3 e JS</p></a>
+
 
 
 
