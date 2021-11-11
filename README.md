@@ -1,5 +1,5 @@
 <h1 align="left">:robot: Desafio TutiLabs</h1>
-<p>Repositório referente ao desafio proposto pela equipe de desenvolvimento da Tutilabs (TutiPlast)<p>
+<p>Repositório referente ao desafio de <strong>Front-End</strong> proposto pela equipe de desenvolvimento da Tutilabs (TutiPlast)<p>
 
 <h2 align="left">:paperclip: Qual foi o Desafio?</h2>
 <p>:one: Desenvolver tela como vista na imagem abaixo.</p>
